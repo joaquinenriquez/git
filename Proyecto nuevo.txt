@@ -1,0 +1,24 @@
+Comenzar un proyecto nuevo:
+
+1. Creamos un nuevo repositorio desde la web
+
+2. Comenzamos a trabajar con nuestro proyecto
+
+3. Dentro de la carpeta principal del proyecto, ejecutamos
+	git init 
+(nos va a crear un nuevo repositoio local)
+
+4. Cuando queramos subir los cambios realizados hasta el momento (solo la primera vez), ejecutamos:
+	git add .
+	git commit -m "Comentario de los cambios que estamos por subir"
+	git remote add origin https://github.com/joaquinenriquez/git.git
+	(la URL es la del repositorio remoto)
+	git push -u origin master
+
+5. Luego para subir los nuevos cambios solo hacemos:
+	git add .
+	git commit -m "Comentario de los cambios que estamos por subir"
+	git push -u origin master
+
+
+
